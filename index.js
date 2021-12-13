@@ -21,8 +21,22 @@ function getAkanName(e) {
 
     gender === 'male' ? userAkanName = maleNames[dayOfWeek] : gender === 'female' ? userAkanName = femaleNames[dayOfWeek] : null;
 
-    
+    // Display Akan Name to the User
+    let node = document.createElement('h1');
+    let textNode = document.createTextNode(`Howdy, your Akan Name is ${userAkanName}`)
+    node.appendChild(textNode);
 
+    //Add Styling to the Displayed Name
+    node.classList.add('akan-name');
+
+    //Check if there is a Valid User Name and Display it for the User, Alert an Error if there isn't
+    let mainSection = document.querySelector('main');
+    if(userAkanName){
+        mainSection.appendChild(node);
+    }else {
+        alert('Please fill all fields');
+    }
+    
 }
 
 let form = document.querySelector('.akan-form');
