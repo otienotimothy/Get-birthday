@@ -34,7 +34,7 @@ main {
 			rgba(255, 255, 255, 0.7),
 			rgba(255, 255, 255, 0.2)
 		),
-		url("/assets/images/ghana.jpg");
+		url("./assets/images/ghana.jpg");
 	background-size: cover;
 	background-position: bottom;
     display: flex;
