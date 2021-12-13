@@ -1,25 +1,40 @@
 /* Add Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 /* Remove Default Styling */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
 }
 
 /* Header Section */
 header {
-    background-color: #A54202;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
+	background-color: #a54202;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	padding-left: 10%;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    color: white;
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+}
+
+/* Main Section */
+main {
+	width: 80%;
+	min-height: 100vh;
+	margin: 0 auto;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0)
+		),
+		url("/assets/images/ghana.jpg");
+	background-size: cover;
+	background-position: bottom;
 }
