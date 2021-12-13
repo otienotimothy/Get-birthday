@@ -46,7 +46,7 @@ main {
 .main-heading {
     color: #a54202;
     text-align: center;
-    margin: 5rem 0;
+    margin: 3rem 0;
     font-size: 1.8rem;
     font-weight: 400;
 }
@@ -58,8 +58,9 @@ main {
 
 /* Page Form */
 .akan-form {
-    border: 1px solid black;
     width: 55%;
+    padding: 1rem 2rem;
+    box-shadow: -5px 5px 5px 0px rgba(165, 67, 2, 0.76);
 }
 
 .akan-form h2 {
@@ -67,4 +68,43 @@ main {
     font-size: 2rem;
     font-weight: 500;
     color: #a54202;
+    margin-bottom: 3rem;
+}
+
+.akan-form h2::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10rem;
+    background-color: #a54202;
+    margin: 1rem auto;
+}
+
+.akan-form label,
+.akan-form input {
+    display: block;
+    margin: .8rem 0;
+}
+
+.akan-form label {
+    font-size: 1.4rem;
+    color: #a54202;
+}
+
+.date, .gender {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #a54202;
+}
+
+.submit {
+    padding: .8rem 2rem;
+    font-size: 1.2rem;
+    background-color: #a54202;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
 }
