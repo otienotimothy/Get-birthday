@@ -37,6 +37,7 @@ function getAkanName(e) {
         alert('Please fill all fields');
     }
     
+    document.querySelector('.akan-form').reset();
 }
 
 let form = document.querySelector('.akan-form');
