@@ -55,3 +55,16 @@ main {
     display: block;
     line-height: 1.6;
 }
+
+/* Page Form */
+.akan-form {
+    border: 1px solid black;
+    width: 55%;
+}
+
+.akan-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #a54202;
+}
