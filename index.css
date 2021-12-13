@@ -37,4 +37,7 @@ main {
 		url("/assets/images/ghana.jpg");
 	background-size: cover;
 	background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
