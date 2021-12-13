@@ -10,7 +10,8 @@ function getAkanName(e) {
     //Return Day of the Week from the object - Returns integers 0-6 with 0 being Sunday
     let dayOfWeek = dateObj.getDay();
 
-    
+    //Get User Gender
+    let gender = document.querySelector('.gender').value;
 
 }
 
