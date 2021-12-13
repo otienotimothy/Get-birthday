@@ -14,9 +14,17 @@ function getAkanName(e) {
     let gender = document.querySelector('.gender').value;
 
     let maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-    let femaleName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+    let femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+
+    //Assign Akan Name
+    let userAkanName;
+
+    gender === 'male' ? userAkanName = maleNames[dayOfWeek] : gender === 'female' ? userAkanName = femaleNames[dayOfWeek] : null;
 
     
 
 }
 
+let form = document.querySelector('.akan-form');
+
+form.addEventListener('submit', (e) => getAkanName(e));
