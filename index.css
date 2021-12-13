@@ -6,4 +6,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+header {
+    background-color: #A54202;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
 }
